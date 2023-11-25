@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/kailabac/learning.kailaba.com 
-    - export PROJECTROOT=/home3/kailabac/repositories/learning.kailaba.com
+    -- export PROJECTROOT=/home3/kailabac/repositories/learning.kailaba.com
     - /bin/cp -r $PROJECTROOT/website/* $DEPLOYPATH
 
